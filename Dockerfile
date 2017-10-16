@@ -21,6 +21,6 @@ RUN git clone --depth 1 --recursive https://github.com/cyrillef/FBX-glTF && \
 	cd FBX-glTF && \
 	cmake -DCMAKE_BUILD_TYPE=Release -DFBX_SDK=/usr
 
-ENTRYPOINT ["fbxgltf"]
+ENTRYPOINT ["glTF"]
 
 CMD ["-h"]
